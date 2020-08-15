@@ -33,7 +33,6 @@ public class TaskUnZip implements Runnable{
         countDownLatch.countDown();
     }
 
-
     public static void unZip(String sourceFilename, String targetDir) throws IOException {
         unZip(new File(sourceFilename), targetDir);
     }

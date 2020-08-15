@@ -22,7 +22,6 @@ public class TaskCompress implements Runnable{
         this.zipSavePath = zipSavePath;
     }
 
-
     @Override
     public void run() {
         zipCompress(zipSavePath, file);
